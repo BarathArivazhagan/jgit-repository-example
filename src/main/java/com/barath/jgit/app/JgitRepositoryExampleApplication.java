@@ -44,7 +44,7 @@ public class JgitRepositoryExampleApplication {
 			}
 		};
 		Git.cloneRepository()
-				.setURI("ssh://git@innersource.accenture.com/~barath.arivazhagan/amc-account-service.git")
+				.setURI("ssh://git@github.com/BarathArivazhagan/cucumber-spring-integration.git")
 				.setDirectory(new File("/Users/barath/Downloads/jgit-repository-example/test"))
 				.setCredentialsProvider(allowHosts)
 				.call();
